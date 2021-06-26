@@ -19,7 +19,6 @@ def send_sms(number, message):
     print(dic)
     return dic.get('return')
 
-
 def btn_click():
     num = textNumber.get()
     msg = textMsg.get("1.0", END)
@@ -28,7 +27,6 @@ def btn_click():
         showinfo("Send Success", "Successfully sent")
     else:
         showerror("Error", "Something went wrong..")
-
 
 # Creating GUI
 root = Tk()
